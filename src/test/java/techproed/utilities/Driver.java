@@ -1,21 +1,12 @@
 package techproed.utilities;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.BeforeMethod;
-import java.time.Duration;
-import java.util.concurrent.TimeUnit;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.BeforeMethod;
-import java.time.Duration;
+
 import java.util.concurrent.TimeUnit;
 public class Driver {
     /*
